@@ -4,6 +4,7 @@ from tkinter import messagebox
 
 root = Tk()
 root.geometry("560x370")
+root.title("Tic Tak Toe By raj")
 
 def checkwinner():
     if (button1["text"] == "X" and button2["text"] == "X" and button3["text"] == "X" or
